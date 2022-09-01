@@ -2,15 +2,18 @@ body {
   font-family: "Fredoka One", cursive;
 }
 .weather-app {
-  border: 3px solid #146ec5;
-  background-color: white;
+  background:linear-gradient(#beceff, #fdfcc3);
+  background-size: cover;
   border-radius: 10px;
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 700px;
-  padding: 30px 60px 30px 60px;
+  padding: 20px 40px;
 }
-.row {
-  align-items: center;
+.weather {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin: 0px auto;
+  padding-top: 20px;
 }
 
 ul {
@@ -30,7 +33,6 @@ p {
   padding: 0 10px 0 10px;
   text-align: center;
   font-size: 100px;
-  color: gold;
 }
 h1,
 h3,
@@ -40,11 +42,12 @@ span {
   margin: 0 auto;
 }
 span {
-  font-size: 25px;
+  font-size: 15px;
 }
 .description {
   font-size: 20px;
 }
+
 a {
   text-decoration: none;
   font-size: 15px;
@@ -56,12 +59,10 @@ a {
 h3 {
   font-size: 13px;
 }
-div .weather-app {
-  padding: 10px 20px 10px 40px;
-}
+
 div .day {
   padding: 0 50px;
 }
 div .weather-icon {
-  padding: 0 0 0 40px;
+  padding: 0 0 0 50px;
 }

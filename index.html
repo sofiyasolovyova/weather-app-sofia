@@ -21,7 +21,7 @@
     <div class="container">
         <div class="weather-app">
             <form class="weather-search-form" id="city-now">
-                <div class="row">
+                <div class="row form">
                     <div class="col">
                         <input type="search" placeholder="Enter a city" class="form-control" shadow-sm autofocus="on"
                             autocomplete="off" id="city-input" />
@@ -41,7 +41,7 @@
                 <li><a href>New York</a></li>
                 <li><a href>Toronto</a></li>
             </ul>
-            <div class="row">
+            <div class="row weather">
                 <div class="col-3 current-weather">
                     <p>☀️</p>
                     <h1 id="city"></h1>
@@ -52,7 +52,9 @@
                         <p hidden><a href="#" id="fahrenheit-link">F</a></p>
                     </span>
                     <span id="description"></span>
-                    <h3>H:28°C L:17°C</h3>
+                <br/>
+                        <span id="humidity">H: <span id="humidity"></span>%</span>
+                        <span id="wind"> | W: <span id="wind"></span> km/h</span>
                 </div>
                 <div class="col-3 day">
                     <ul>
@@ -69,7 +71,7 @@
                         <li>Saturday</li>
                     </ul>
                 </div>
-                <div class="col-2 weather-icon">
+                <div class="col-3 weather-icon">
                     <ul>
                         <li>☀️</li>
                         <br />
