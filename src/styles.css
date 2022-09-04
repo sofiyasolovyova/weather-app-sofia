@@ -1,6 +1,6 @@
 body {
   font-family: "Fredoka One", cursive;
-  color: #48484A;
+  color: #48484a;
 }
 .weather-app {
   background: linear-gradient(#beceff, #fdfcc3);
@@ -11,12 +11,13 @@ body {
   padding: 20px 40px;
 }
 
-
 form {
   padding-left: 15px;
 }
+
+
 .weather {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   margin: 0px auto;
   padding-top: 20px;
@@ -63,8 +64,8 @@ h3 {
 }
 
 div .day {
-  padding: 0 50px;
+  padding: 0 0px;
 }
 div .weather-icon {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 10px;
 }
