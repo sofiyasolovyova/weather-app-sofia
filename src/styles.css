@@ -1,5 +1,6 @@
 body {
   font-family: "Fredoka One", cursive;
+  color: #48484A;
 }
 .weather-app {
   background: linear-gradient(#beceff, #fdfcc3);
@@ -9,6 +10,7 @@ body {
   max-width: 680px;
   padding: 20px 40px;
 }
+
 
 form {
   padding-left: 15px;
@@ -23,6 +25,7 @@ form {
 ul {
   list-style: none;
 }
+
 .cities li {
   display: inline-block;
   font-style: italic;
@@ -32,12 +35,7 @@ ul {
 .current-weather {
   text-align: center;
 }
-p {
-  margin: -20px auto;
-  padding: 0 10px 0 10px;
-  text-align: center;
-  font-size: 100px;
-}
+
 h1,
 h3,
 span {
@@ -68,5 +66,5 @@ div .day {
   padding: 0 50px;
 }
 div .weather-icon {
-  padding: 0 0 0 50px;
+  padding: 0 0 0 60px;
 }
