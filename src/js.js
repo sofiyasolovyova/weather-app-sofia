@@ -83,4 +83,4 @@ searchForm.addEventListener("submit", showCity);
 let currentLocationButton = document.querySelector("#current-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
-searchCity("Paris");
+searchCity("Kyiv");
