@@ -4,6 +4,7 @@ body {
 }
 .weather-app {
   background: linear-gradient(#beceff, #fdfcc3);
+      box-sizing: border-box;
   background-size: cover;
   border-radius: 10px;
   margin: 30px auto;
@@ -15,12 +16,10 @@ form {
   padding-left: 15px;
 }
 
-
 .weather {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   margin: 0px auto;
-  padding-top: 20px;
 }
 
 ul {
@@ -33,8 +32,18 @@ ul {
   font-size: 10px;
   padding: 5px;
 }
+
 .current-weather {
   text-align: center;
+  box-sizing: border-box;
+    position: relative;
+    padding-bottom: 50px;
+}
+.weather-forecast {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 h1,
@@ -45,7 +54,7 @@ span {
   margin: 0 auto;
 }
 span {
-  font-size: 15px;
+  font-size: 14px;
 }
 .description {
   font-size: 20px;
@@ -56,16 +65,7 @@ a {
   font-size: 15px;
   text-align: center;
 }
-.temperature {
-  font-size: 16px;
-}
+
 h3 {
   font-size: 13px;
-}
-
-div .day {
-  padding: 0 0px;
-}
-div .weather-icon {
-  padding: 0 0 0 10px;
 }
